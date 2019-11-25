@@ -2,9 +2,7 @@ class Song
   attr_accessor :name, :artist, :genre
   
   def new(name, artist, genre)
-    self.name
-    self.artist
-    self.genre
+    puts "#{name} and #{artist} and #{genre}."
   end
   
 end
