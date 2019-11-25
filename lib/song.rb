@@ -18,6 +18,10 @@ class Song
     artists.uniq
     
   end
+  
+  def count
+    @@count
+  end
 
   
   
