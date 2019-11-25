@@ -8,9 +8,9 @@ class Song
   end
   
   def new(name, artist, genre)
-    @self.name = name
-    @self.artist = artist
-    @self.genre = genre
+    @name = name
+    @artist = artist
+    @genre = genre
   end
   
 end
