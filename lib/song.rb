@@ -14,6 +14,10 @@ class Song
     @@genre << genre
   end
   
+  def self.artists
+    artists.uniq
+    
+  end
 
   
   
