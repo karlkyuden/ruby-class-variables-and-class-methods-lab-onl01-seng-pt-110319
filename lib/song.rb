@@ -26,7 +26,7 @@ class Song
     @@genres.uniq
   end
   
-  def genre_count
+  def self.genre_count
     genre_hash = Hash.new
     @@genres.uniq.each { | genre | genre_hash[genre] == @genres.reduce(0) { |memo, element|
     memo += 1 if element == genre
